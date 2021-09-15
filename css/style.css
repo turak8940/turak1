@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+}
+body{
+
+}
+header{
+
+background-color: #ccc2b0;
+
+margin: 0px 0;
+
+/* margin-top: 15px; */
+
+margin-bottom: 25px;
+}
+.container{
+
+display: flex;
+
+width: 1200px;
+
+margin: 0 auto;
+
+/* display: flex; */
+
+flex wraa: w;
+
+flex animation-fill-mode: backwards;
+
+flex-wrap: wrap;
+
+/* align-content: space-between; */
+
+/* flex-direction: row; */
+
+/* justify-content: flex-end; */
+
+align-items: center;
+}
+.logo{
+
+flex-basis: 20%;
+}
+.logo a{}
+
+.logo a img{
+    width: 211px;
+    object-fit: cover;
+
+}
+nav{
+    flex-basis: 80%;
+}
+nav ul{
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: flex-end;
+    /* align-content: center; */
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    color: #ad2448;
+    font-size: 25px;
+    text-decoration: none;
+    /* list-style: none; */
+    text-transform: uppercase;
+    padding: 30px;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+.banner{
+    /* width: 1200px; */
+    /* margin: auto; */
+    display: flex;
+    justify-content: center;
+}
+.banner img{
+    width: 1200px;
+    height: 549px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px 4px #ccc2b0;
+    margin-bottom: 50px;
+}
+.service-section{
+    padding: 82px 0;
+    /* border-radius: 50px; */
+    /* background: #ccc2b0; */
+    /* box-shadow:  20px 20px 60px #ada596,
+             -20px -20px 60px #ebdfca; */
+    background: #ccc2b0;
+}
+.col{
+    display: flex;
+    /* flex-basis: 33.33%; */
+    /* border: 1px solid; */
+    padding: 15px;
+    box-sizing: border-box;
+}
+.scetion{
+    border-style: solid;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+    border-color: #c2baa9;
+    border-radius: 50px;
+    background: #ccc2b0;
+    box-shadow:  20px 20px 60px #ada596,
+             -20px -20px 60px #ebdfca;
+    min-height: 306px;
+}
+ i{
+    background-color: #ccc2b0;
+    /* padding: 2px; */
+    color: #ad2448;
+    font-size: 47px;
+    display: inline-block;
+    padding-top: 15px;
+}
+.scetion h1{
+    text-transform: capitalize;
+    font-size: 25px;
+    padding-bottom: 26px;
+    color: #843c4e;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+ p{
+    font-size: 17px;
+    color: #7f102d;
+}
